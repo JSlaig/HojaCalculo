@@ -1,0 +1,14 @@
+Factores a tener en cuenta en el desarrollo de la practica:
+
+	-La matriz inicial tiene que contener las formulas y numeros como string porque el tratamiento de formulas
+		es posterior y eso permite que se puedan hacer formulas anidadas
+		
+	-Si la formula es anidada se tendra que llamar a una funcion recursiva para solucionar primero la funcion
+		interior y luego la exterior
+		
+	-Se debe tener en cuenta que las casillas referenciadas en las formulas siempre empezaran por la letra, si 
+		no es asi se debe lanzar un error
+		
+	-La referencia numero/letra de las columnas no se puede realizar de forma viable mediante un switch case, buscar alternativa
+	
+	-error en el input de las casillas en HojaCalculo: 39 , NoSuchElementException por el nextLine.
