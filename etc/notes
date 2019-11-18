@@ -1,0 +1,15 @@
+Factores a tener en cuenta en el desarrollo de la practica:
+
+	(done)-La matriz inicial tiene que contener las formulas y numeros como string porque el tratamiento de formulas
+		es posterior y eso permite que se puedan hacer formulas anidadas
+		
+	(done)-Si la formula es anidada se tendra que llamar a una funcion recursiva para solucionar primero la funcion
+		interior y luego la exterior
+		
+	(done)-Se debe tener en cuenta que las casillas referenciadas en las formulas siempre empezaran por la letra, si 
+		no es asi se debe lanzar una excepcion
+		
+	(partial done)-La referencia numero/letra de las columnas no se puede realizar de forma viable mediante un switch case, buscar alternativa			
+
+	-he conseguido implementar la identificacion de celda para una sola letra, pero falta el poder identificarlas con mas de una	
+	
